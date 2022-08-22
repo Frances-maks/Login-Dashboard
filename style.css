@@ -34,11 +34,11 @@ form{
     position: absolute;
 }
 .obj-username{
-    bottom: 345px;
+    bottom: 275px;
     margin-left: 10px;
 }
 .obj-password{
-    bottom: 275px;
+    bottom: 210px;
     margin-left: 10px;
 }
 input{
