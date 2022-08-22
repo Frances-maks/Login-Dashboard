@@ -29,6 +29,18 @@ object{
 form{
     margin: 40px auto;
 }
+.input-obj{
+    width: 25px;
+    position: absolute;
+}
+.obj-username{
+    bottom: 345px;
+    margin-left: 10px;
+}
+.obj-password{
+    bottom: 275px;
+    margin-left: 10px;
+}
 input{
     width: 300px;
     height: 50px;
@@ -39,18 +51,10 @@ input{
 }
 .username{
     margin-bottom: 10px;
-    background-image: url(./images/user.svg);
-    background-repeat: no-repeat;
-    background-position: 360px 25px;
-    padding: 10px;
 }
 
 .password{
-    margin-top: 20px;
-    background-image: url(./images/lock.svg);
-    background-repeat: no-repeat;
-    background-position: 360px 25px;
-    padding: 10px;
+    margin-top: 20px;    
 }
 ::placeholder{
     color: #FFFFFF;
@@ -59,7 +63,7 @@ input{
     font-weight: 300;
     line-height: 20px;
     text-align: center;
-    padding-right: 120px;
+    padding-right: 100px;
     opacity: 0.70;
     letter-spacing: 1px;
 }
